@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ac3c1c9-df31-4ab7-ba73-ca885ec3e14c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/CategoriaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/ProductoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/dtos/CategoriaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/dtos/ProductoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/entities/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/entities/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/ICategoriaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/IProductoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/CategoriaServiceImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/ProductoServiceImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/ICategoriaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/IProductoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/CalificacionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/ListaComprasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/dtos/CalificacionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/dtos/ListaComprasDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/entities/Calificacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/entities/ListaCompras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/ICalificacionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/IListaComprasRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/CalificacionServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/ListaComprasServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/ICalificacionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/IListaComprasService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +34,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.QhatuykiStoreApplication.executor": "Run",
-    "git-widget-placeholder": "sebas",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Arqui Web}/TrabajoFinal 2.0/QhatuykiStore-/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.QhatuykiStoreApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sebas&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Arqui Web}/TrabajoFinal 2.0/QhatuykiStore-/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Arqui Web}\TrabajoFinal 2.0\QhatuykiStore-\QhatuykiStore\src\main\java\com\pe\QhatuykiStore\servicesinterfaces" />
+      <recent name="D:\Arqui Web}\TrabajoFinal 2.0\QhatuykiStore-\QhatuykiStore\src\main\java\com\pe\QhatuykiStore\servicesimplements" />
+      <recent name="D:\Arqui Web}\TrabajoFinal 2.0\QhatuykiStore-\QhatuykiStore\src\main\java\com\pe\QhatuykiStore\repositories" />
+      <recent name="D:\Arqui Web}\TrabajoFinal 2.0\QhatuykiStore-\QhatuykiStore\src\main\java\com\pe\QhatuykiStore\entities" />
+      <recent name="D:\Arqui Web}\TrabajoFinal 2.0\QhatuykiStore-\QhatuykiStore\src\main\java\com\pe\QhatuykiStore\dtos" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="QhatuykiStoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
