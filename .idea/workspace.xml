@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ac3c1c9-df31-4ab7-ba73-ca885ec3e14c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/CategoriaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/ProductoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/dtos/CategoriaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/dtos/ProductoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/entities/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/entities/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/ICategoriaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/IProductoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/CategoriaServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/ProductoServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/ICategoriaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/IProductoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +38,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.QhatuykiStoreApplication.executor": "Run",
     "git-widget-placeholder": "sebas",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Arqui Web}/TrabajoFinal 2.0/QhatuykiStore-/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,6 +79,7 @@
       <updated>1714157459849</updated>
       <workItem from="1714157461132" duration="9000" />
       <workItem from="1714225882318" duration="759000" />
+      <workItem from="1714252876698" duration="2147000" />
     </task>
     <servers />
   </component>
