@@ -32,4 +32,9 @@ public class RoleServiceImplement implements IRoleService {
     public Role listarId(Long idRol) {
         return rR.findById(idRol).orElse(new Role());
     }
+
+    @Override
+    public List<String[]> cantidadUsuariosRol() {
+        return rR.cantidadUsuariosRol();
+    }
 }

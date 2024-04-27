@@ -12,4 +12,8 @@ public interface IRoleService {
     public void delete(Long idRol);
 
     public Role listarId(Long idRol);
+
+    List<String[]> cantidadUsuariosRol();
+
+
 }
