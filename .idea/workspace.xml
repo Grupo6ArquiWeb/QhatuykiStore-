@@ -37,6 +37,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;Spring Boot.QhatuykiStoreApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;sebas&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
@@ -46,10 +47,15 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+=======
+    &quot;git-widget-placeholder&quot;: &quot;marife&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+>>>>>>> marife
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+<<<<<<< HEAD
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Arqui Web}\TrabajoFinal 2.0\QhatuykiStore-\QhatuykiStore\src\main\java\com\pe\QhatuykiStore\servicesinterfaces" />
@@ -69,6 +75,8 @@
       </method>
     </configuration>
   </component>
+=======
+>>>>>>> marife
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,8 +94,12 @@
       <option name="presentableId" value="Default" />
       <updated>1714157459849</updated>
       <workItem from="1714157461132" duration="9000" />
+<<<<<<< HEAD
       <workItem from="1714225882318" duration="759000" />
       <workItem from="1714252876698" duration="2147000" />
+=======
+      <workItem from="1714190818959" duration="13000" />
+>>>>>>> marife
     </task>
     <servers />
   </component>
