@@ -5,6 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ac3c1c9-df31-4ab7-ba73-ca885ec3e14c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/CalificacionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/ListaComprasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/dtos/CalificacionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/dtos/ListaComprasDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/entities/Calificacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/entities/ListaCompras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/ICalificacionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/IListaComprasRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/CalificacionServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/ListaComprasServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/ICalificacionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/IListaComprasService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -27,9 +39,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "sebas",
+    "git-widget-placeholder": "Jesus",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/actual/demoAPISX61",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -38,6 +51,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pe.QhatuykiStore.controllers" />
+      <recent name="com.pe.QhatuykiStore.dtos" />
+      <recent name="com.pe.QhatuykiStore.repositories" />
+      <recent name="com.pe.QhatuykiStore.servicesimplements" />
+      <recent name="com.pe.QhatuykiStore.servicesinterfaces" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="QhatuykiStoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -66,6 +88,7 @@
       <updated>1714157459849</updated>
       <workItem from="1714157461132" duration="9000" />
       <workItem from="1714225882318" duration="759000" />
+      <workItem from="1714251712580" duration="4186000" />
     </task>
     <servers />
   </component>
