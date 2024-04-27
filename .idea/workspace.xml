@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ac3c1c9-df31-4ab7-ba73-ca885ec3e14c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/IDeliveryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/IDeliveryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/IRoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/IRoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/IDeliveryServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/IDeliveryServiceImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/RoleServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/RoleServiceImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/IDeliveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/IDeliveryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/dtos/RolxUsuarioDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/RoleController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +24,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.QhatuykiStoreApplication.executor": "Run",
-    "git-widget-placeholder": "sebas",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/sebas/OneDrive/Escritorio/Nueva carpeta/demoAPISX61",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.QhatuykiStoreApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sebas&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sebas/OneDrive/Escritorio/Nueva carpeta/demoAPISX61&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Arqui Web}\TrabajoFinal 2.0\QhatuykiStore-\QhatuykiStore\src\main\java\com\pe\QhatuykiStore\servicesinterfaces" />
@@ -84,6 +79,7 @@
       <workItem from="1714225882318" duration="759000" />
       <workItem from="1714252876698" duration="2147000" />
       <workItem from="1714259916169" duration="505000" />
+      <workItem from="1714261570579" duration="548000" />
     </task>
     <servers />
   </component>
