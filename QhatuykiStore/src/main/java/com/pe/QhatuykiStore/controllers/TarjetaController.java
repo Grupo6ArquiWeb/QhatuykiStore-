@@ -1,5 +1,7 @@
 package com.pe.QhatuykiStore.controllers;
 
+import com.pe.QhatuykiStore.dtos.TarjetasMasProximasAVencerDTO;
+import com.pe.QhatuykiStore.dtos.TipoTarjetaMasUsadaDTO;
 import com.pe.QhatuykiStore.entities.Tarjeta;
 import org.modelmapper.ModelMapper;
 import com.pe.QhatuykiStore.dtos.TarjetaDTO;
@@ -7,6 +9,8 @@ import com.pe.QhatuykiStore.servicesinterfaces.ITarjetaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -45,7 +49,7 @@ public class TarjetaController {
 
     @GetMapping("/tarjetaquery01")
     public List<TipoTarjetaMasUsadaDTO> tipoTarjetaMasUsada() {
-        List<String[]> filaLista = tS.tipoTarjetaMasUsada();
+        List<String[]> filaLista = tS.tarjetaMasUsada();
         List<TipoTarjetaMasUsadaDTO> dtoLista = new ArrayList<>();
 
         for (String[] columna : filaLista) {
@@ -59,7 +63,7 @@ public class TarjetaController {
     }
     @GetMapping("/tarjetaquery02")
     public List<TarjetasMasProximasAVencerDTO> tarjetasMasProximasAVencer() {
-        List<Object[]> filaLista = tS.tarjetasMasProximasAVencer();
+        List<String[]> filaLista = tS.tarjetasPorVencer();
         List<TarjetasMasProximasAVencerDTO> dtoLista = new ArrayList<>();
 
         for (Object[] columna : filaLista) {
