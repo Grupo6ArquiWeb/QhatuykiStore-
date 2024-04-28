@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="90f24ad1-00ec-411c-91f8-634ab6551050" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/DeliveryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/DeliveryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/RoleController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.QhatuykiStoreApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "sebas",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/user/Documents/Arqui web/Categoria",
     "node.js.detected.package.eslint": "true",
@@ -60,13 +62,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9ac3c1c9-df31-4ab7-ba73-ca885ec3e14c" name="Changes" comment="" />
+      <changelist id="90f24ad1-00ec-411c-91f8-634ab6551050" name="Changes" comment="" />
       <created>1714157459849</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714157459849</updated>
       <workItem from="1714157461132" duration="9000" />
       <workItem from="1714190818959" duration="13000" />
+      <workItem from="1714265851851" duration="1640000" />
     </task>
     <servers />
   </component>

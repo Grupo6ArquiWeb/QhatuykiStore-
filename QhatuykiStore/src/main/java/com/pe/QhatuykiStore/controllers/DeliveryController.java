@@ -1,12 +1,15 @@
 package com.pe.QhatuykiStore.controllers;
 
 import com.pe.QhatuykiStore.dtos.DeliveryDTO;
+import com.pe.QhatuykiStore.dtos.DeliveryxUsuarioDTO;
 import com.pe.QhatuykiStore.entities.Delivery;
 import com.pe.QhatuykiStore.servicesinterfaces.IDeliveryService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -35,5 +38,20 @@ public class DeliveryController {
         ModelMapper m = new ModelMapper();
         DeliveryDTO dto = m.map(dS.listarId(id), DeliveryDTO.class);
         return dto;
+    }
+    @GetMapping("/consulta02")
+    public List<DeliveryxUsuarioDTO> cantidadDeliveryUsuarios() {
+        List<String[]> filaLista = dS.cantidadDeliveryUsuarios();
+        List<DeliveryxUsuarioDTO> dtoLista = new ArrayList<>();
+
+        for (String[] columna : filaLista) {
+            DeliveryxUsuarioDTO dto = new DeliveryxUsuarioDTO();
+            dto.setUsername(columna[0]);
+            dto.setCantidadDeliveriesxUsuario(Integer.parseInt(columna[1]));
+            dtoLista.add(dto);
+        }
+
+        return dtoLista;
+
     }
 }
