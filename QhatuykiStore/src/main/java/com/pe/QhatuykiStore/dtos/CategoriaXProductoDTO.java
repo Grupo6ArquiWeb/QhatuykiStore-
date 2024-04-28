@@ -1,6 +1,6 @@
 package com.pe.QhatuykiStore.dtos;
 
-public class CategoriaXUsuarioDTO {
+public class CategoriaXProductoDTO {
     private int frecuencia;
     private String nombre;
     private int cantidadProdCat;
