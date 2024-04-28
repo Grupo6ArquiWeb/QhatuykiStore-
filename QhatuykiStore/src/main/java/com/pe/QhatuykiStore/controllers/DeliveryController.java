@@ -6,6 +6,7 @@ import com.pe.QhatuykiStore.entities.Delivery;
 import com.pe.QhatuykiStore.servicesinterfaces.IDeliveryService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -38,6 +39,7 @@ public class DeliveryController {
         DeliveryDTO dto = m.map(dS.listarId(id), DeliveryDTO.class);
         return dto;
     }
+    @PreAuthorize("hasAuthority('ADMIN')")
     @GetMapping("/consulta02")
     public List<DeliveryxUsuarioDTO> consulta02() {
         List<String[]> filaLista = dS.cantidadDeliveryUsuarios();
