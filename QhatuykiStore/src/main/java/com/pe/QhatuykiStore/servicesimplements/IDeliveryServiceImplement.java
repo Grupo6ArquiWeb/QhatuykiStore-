@@ -27,4 +27,11 @@ public class IDeliveryServiceImplement implements IDeliveryService {
     public Delivery listarId(int idDelivery) {
         return dR.findById(idDelivery).orElse(new Delivery());
     }
+
+    @Override
+    public List<String[]> cantidadDeliveryUsuarios() {
+        return dR.cantidadDeliveryUsuarios();
+    }
+
+
 }

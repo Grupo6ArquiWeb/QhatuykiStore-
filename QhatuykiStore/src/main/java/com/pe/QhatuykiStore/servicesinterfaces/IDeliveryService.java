@@ -8,4 +8,5 @@ public interface IDeliveryService {
     public void insertDelivery(Delivery d);
     public List<Delivery> listarDelivery();
     public Delivery listarId(int idDelivery);
+    List<String[]> cantidadDeliveryUsuarios();
 }

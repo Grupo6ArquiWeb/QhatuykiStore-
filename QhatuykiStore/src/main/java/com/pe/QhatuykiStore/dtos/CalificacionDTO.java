@@ -1,19 +1,19 @@
 package com.pe.QhatuykiStore.dtos;
 
-import org.apache.catalina.User;
+import com.pe.QhatuykiStore.entities.Users;
 
 import java.time.LocalDate;
 
 public class CalificacionDTO {
     private int idCalificacion;
     private LocalDate FechaHora;
-    private User user;
+    private Users user;
 
-    public User getUser() {
+    public Users getUser() {
         return user;
     }
 
-    public void setUser(User user) {
+    public void setUser(Users user) {
         this.user = user;
     }
 

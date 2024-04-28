@@ -1,5 +1,6 @@
 package com.pe.QhatuykiStore.dtos;
 
+import com.pe.QhatuykiStore.entities.Producto;
 import com.pe.QhatuykiStore.entities.Venta;
 
 public class ListaComprasDTO {

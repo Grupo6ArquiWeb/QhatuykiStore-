@@ -26,4 +26,14 @@ public class TarjetaServiceImplement implements ITarjetaService {
     public void delete(int id) {
         tR.deleteById(id);
     }
+
+    @Override
+    public List<String[]> tarjetaMasUsada() {
+       return tR.tarjetaMasUsada();
+    }
+
+    @Override
+    public List<String[]> tarjetasPorVencer() {
+        return tR.tarjetasPorVencer();
+    }
 }

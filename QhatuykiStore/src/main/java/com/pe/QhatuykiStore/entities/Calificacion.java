@@ -1,7 +1,6 @@
 package com.pe.QhatuykiStore.entities;
 
 import jakarta.persistence.*;
-import org.apache.catalina.User;
 
 import java.time.LocalDate;
 
