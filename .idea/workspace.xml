@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90f24ad1-00ec-411c-91f8-634ab6551050" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/dtos/CategoriaXUsuarioDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/DeliveryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/DeliveryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/CategoriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/controllers/CategoriaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/ICategoriaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/repositories/ICategoriaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/CategoriaServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesimplements/CategoriaServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/ICategoriaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/QhatuykiStore/src/main/java/com/pe/QhatuykiStore/servicesinterfaces/ICategoriaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +79,7 @@
       <updated>1714157459849</updated>
       <workItem from="1714157461132" duration="9000" />
       <workItem from="1714190818959" duration="13000" />
-      <workItem from="1714265851851" duration="1640000" />
+      <workItem from="1714265851851" duration="3371000" />
     </task>
     <servers />
   </component>

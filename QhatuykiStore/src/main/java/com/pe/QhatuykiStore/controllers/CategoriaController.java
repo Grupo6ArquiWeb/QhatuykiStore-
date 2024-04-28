@@ -1,6 +1,8 @@
 package com.pe.QhatuykiStore.controllers;
 
 
+import com.pe.QhatuykiStore.dtos.CategoriaXUsuarioDTO;
+import com.pe.QhatuykiStore.dtos.RolxUsuarioDTO;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -8,6 +10,7 @@ import com.pe.QhatuykiStore.dtos.CategoriaDTO;
 import com.pe.QhatuykiStore.entities.Categoria;
 import com.pe.QhatuykiStore.servicesinterfaces.ICategoriaService;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -48,6 +51,34 @@ public class CategoriaController {
         ModelMapper m=new ModelMapper();
         CategoriaDTO dto=m.map(cS.listId(id), CategoriaDTO.class);
         return dto;
+    }
+    @GetMapping("/consulta")
+    public List<CategoriaXUsuarioDTO> consulta() {
+        List<String[]> filaLista = cS.categoriaFrecuenteProductos();
+        List<CategoriaXUsuarioDTO> dtoLista = new ArrayList<>();
+
+        for (String[] columna : filaLista) {
+            CategoriaXUsuarioDTO dto = new CategoriaXUsuarioDTO();
+            dto.setNombre(columna[0]);
+            dto.setFrecuencia(Integer.parseInt(columna[1]));
+            dtoLista.add(dto);
+        }
+
+        return dtoLista;
+    }
+    @GetMapping("/consulta02")
+    public List<CategoriaXUsuarioDTO> consulta02() {
+        List<String[]> filaLista = cS.categoriaFrecuenteProductos();
+        List<CategoriaXUsuarioDTO> dtoLista = new ArrayList<>();
+
+        for (String[] columna : filaLista) {
+            CategoriaXUsuarioDTO dto = new CategoriaXUsuarioDTO();
+            dto.setNombre(columna[0]);
+            dto.setCantidadProdCat(Integer.parseInt(columna[1]));
+            dtoLista.add(dto);
+        }
+
+        return dtoLista;
     }
 
 

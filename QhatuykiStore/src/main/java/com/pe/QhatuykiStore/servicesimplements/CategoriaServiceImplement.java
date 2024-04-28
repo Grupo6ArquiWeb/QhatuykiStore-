@@ -36,6 +36,15 @@ public class CategoriaServiceImplement implements ICategoriaService {
 
     }
 
+    @Override
+    public List<String[]> categoriaFrecuenteProductos() {
+        return cR.categoriaFrecuenteProductos();
+    }
+
+    @Override
+    public List<String[]> categoriaMasProductos() {
+        return cR.categoriaMasProductos();
+    }
 
 
 }

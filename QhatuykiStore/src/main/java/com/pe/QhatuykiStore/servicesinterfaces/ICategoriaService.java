@@ -10,5 +10,8 @@ public interface ICategoriaService {
     public List<Categoria> list();
     public void delete(int id);
     public Categoria listId(int id);
+    List<String[]> categoriaFrecuenteProductos();
+
+    List<String[]> categoriaMasProductos();
 
 }
