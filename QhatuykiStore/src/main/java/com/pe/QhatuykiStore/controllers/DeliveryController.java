@@ -39,9 +39,8 @@ public class DeliveryController {
         DeliveryDTO dto = m.map(dS.listarId(id), DeliveryDTO.class);
         return dto;
     }
-    @PreAuthorize("hasAuthority('ADMIN')")
     @GetMapping("/consulta02")
-    public List<DeliveryxUsuarioDTO> consulta02() {
+    public List<DeliveryxUsuarioDTO> cantidadDeliveryUsuarios() {
         List<String[]> filaLista = dS.cantidadDeliveryUsuarios();
         List<DeliveryxUsuarioDTO> dtoLista = new ArrayList<>();
 

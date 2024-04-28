@@ -52,7 +52,7 @@ public class RoleController {
         }).collect(Collectors.toList());
     }
     @GetMapping("/consulta01")
-    public List<RolxUsuarioDTO> consulta01() {
+    public List<RolxUsuarioDTO> cantidadUsuariosRol() {
         List<String[]> filaLista = rS.cantidadUsuariosRol();
         List<RolxUsuarioDTO> dtoLista = new ArrayList<>();
 
