@@ -23,4 +23,7 @@ public class ListaComprasServiceImplement implements IListaComprasService {
         return BR.findAll();
     }
 
+    public List<String[]> MontoListaCompras() {return BR.MontoListaCompras();}
+    public List<String[]> MaxListaCompras() {return BR.MaxListaCompras();}
+
 }

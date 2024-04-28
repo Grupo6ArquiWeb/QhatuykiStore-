@@ -7,5 +7,6 @@ public interface IListaComprasService {
 
     public void insertar(ListaCompras b);
     public List<ListaCompras> list();
-
+    List<String[]> MontoListaCompras();
+    List<String[]> MaxListaCompras();
 }
